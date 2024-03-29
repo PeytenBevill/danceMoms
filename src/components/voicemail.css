@@ -1,0 +1,21 @@
+.voicemailBody {
+  background-color: rgb(233, 204, 209);
+  height: 100vh;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  display: grid;
+  grid-template-columns: 1.75fr .25fr;
+  border-bottom: 2px solid black;
+  padding: 2%;
+}
+
+.dropdown {
+  background-color: transparent;
+  border: none;
+}

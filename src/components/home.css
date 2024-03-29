@@ -1,0 +1,28 @@
+.homeBody {
+  height: 100vh;
+  background-image: url("https://wallpapercave.com/wp/wp10293951.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.iconBorder {
+  border-radius: 20px;
+}
+
+.icon {
+  height: 87px;
+  width: 87px;
+  margin: 2px;
+}
+
+.bar {
+  position: absolute;
+  width: 90%;
+  height: 100px;
+  bottom: 30px;
+  left: 20px;
+  background-color: rgba(197, 197, 197, 0.817);
+  overflow: hidden;
+  border-radius: 30px;
+}

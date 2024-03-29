@@ -1,0 +1,82 @@
+.passcodeBody {
+  background-image: linear-gradient(
+    rgb(181, 105, 117),
+    pink,
+    rgb(202, 146, 155)
+  );
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4%;
+  padding-top: 8%;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputIcon {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+  margin: 10px;
+}
+
+.iconFilled {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: white;
+  margin: 10px;
+}
+
+.nums {
+  margin-top: 12%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blank {
+  background-color: transparent;
+  border: none;
+}
+
+.numButton {
+  font-size: 30px;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  padding: 4%;
+  margin: 1rem;
+  text-align: center;
+  color: white;
+  background: transparent;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* margin-top: 10%; */
+}
+
+.emergency {
+  grid-column: 1/2;
+  color: white;
+  text-align: left;
+}
+
+.delete {
+  grid-column: 3/4;
+  text-align: right;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.appHeaderBody {
+  height: 60px;
+  display: grid;
+  grid-template-columns: .25fr 1.75fr;
+  padding: 6% 2% 0% 2%;
+}
+
+.location {
+  text-align: center;
+  margin: 0;
+  margin-right: 15%;
+  font-size: 30px;
+  padding: 0;
+}
