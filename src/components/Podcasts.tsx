@@ -2,7 +2,7 @@ import React from "react";
 import AppHeader from "./AppHeader";
 import { Play } from "@phosphor-icons/react";
 
-const Podcasts = () => {
+const Podcasts: React.FC = () => {
   return (
     <div>
       <AppHeader />
